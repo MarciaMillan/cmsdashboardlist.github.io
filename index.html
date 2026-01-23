@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Landing con filtro por región</title>
+  <title>Listado de dashboards por región</title>
   <style>
     :root{--bg:#0b0f19;--card:#111827;--muted:#9ca3af;--text:#e5e7eb;--stroke:#1f2937;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:16px}
     *{box-sizing:border-box}
@@ -35,8 +35,8 @@
   <div class="wrap">
     <header>
       <div>
-        <h1>Landing — Contenidos por región</h1>
-        <p>Filtrá por región y hacé click en una imagen para ir al link.</p>
+        <h1>Listado de dashboards por región</h1>
+        <p>Filtrá por región y hacé click en una imagen para ir al dashboard.</p>
       </div>
       <div class="controls">
         <div>
@@ -56,10 +56,7 @@
   <script>
     // EDITÁ ESTO con tus regiones/imagenes/links
     const items = [
-      { title:"Promo LATAM Norte", region:"LATAM Norte", img:"https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=70", url:"https://example.com/latam-norte" },
-      { title:"Campaña LATAM Sur",  region:"LATAM Sur",  img:"https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=70", url:"https://example.com/latam-sur" },
-      { title:"Portal Brasil",     region:"Brasil",     img:"https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=70", url:"https://example.com/brasil" },
-      { title:"Lanzamiento Europa",region:"Europa",     img:"https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&w=1200&q=70", url:"https://example.com/europa" }
+      { title:"FIN AND PAY", region:"LATAM SUR", img:"https://app.cmseventos.com/evento/finpay/assets/img/logo%202025%20F&P.png", url:"https://lookerstudio.google.com/reporting/76f6ec34-9822-4f3f-9cce-2f9aeeca2697/page/p_8dg276hkzd" },
     ];
 
     const regionSelect = document.getElementById("region");
